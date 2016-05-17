@@ -1,7 +1,7 @@
 Summary:      Real-time software synthesizer
 Name:         fluidsynth
 Version:      1.1.6
-Release:      4%{?dist}
+Release:      5%{?dist}
 URL:          http://www.fluidsynth.org/
 Source0:      http://downloads.sourceforge.net/fluidsynth/fluidsynth-%{version}.tar.bz2
 License:      LGPLv2+
@@ -107,6 +107,9 @@ make DESTDIR=$RPM_BUILD_ROOT -C %{_target_platform} install
 
 
 %changelog
+* Sun May 15 2016 Ricardo Arguello <rarguello@deskosproject.org> 1.1.6-5
+- Rebuilt for DeskOS
+
 * Sat Jun 07 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.1.6-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_21_Mass_Rebuild
 
